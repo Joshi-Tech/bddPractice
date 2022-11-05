@@ -19,9 +19,7 @@ jobs:
           password: $L2k8j72  # context / project UI env-var reference
     steps:
       - checkout
-      - run: openjdk:11.0.13
-      - echo: Hello
-          
+      - run: echo "this is the test job"
 
 # Orchestrate our job run sequence
 workflows:
