@@ -33,7 +33,7 @@ jobs:
       # Orchestrate our job run sequence
 
 
-workflows2:
+workflows:
   dev_and_QA:
     jobs:
       - dev
