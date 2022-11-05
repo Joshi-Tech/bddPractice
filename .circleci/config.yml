@@ -23,7 +23,7 @@ jobs:
 
 # Orchestrate our job run sequence
 workflows:
-  build_and_test:
+  dev_and_QA:
     jobs:
-      - Dev
+      - dev
       - QA
