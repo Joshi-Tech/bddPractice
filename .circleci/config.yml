@@ -11,6 +11,15 @@ jobs:
     steps:
       - checkout
       - run: echo "this is the build job"
+  QA:
+    docker:
+      - image: cimg/openjdk:11.0.13
+        auth:
+          username: lkjoshi
+          password: $L2k8j72 # context / project UI env-var reference
+    steps:
+      - checkout
+      - run: echo "this is the build job"
   test:
     docker:
       - image: cimg/openjdk:11.0.13
@@ -23,7 +32,17 @@ jobs:
 
 # Orchestrate our job run sequence
 workflows:
+  dev_and_test:
+    jobs:
+      - dev
+      - test
+      
+      workflows2:
   dev_and_QA:
     jobs:
       - dev
       - test
+      - QA:
+      - test
+        requires:
+          -dev
