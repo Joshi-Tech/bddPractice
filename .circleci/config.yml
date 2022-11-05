@@ -26,4 +26,4 @@ workflows:
   dev_and_QA:
     jobs:
       - dev
-      - QA
+      - test
