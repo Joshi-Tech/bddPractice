@@ -29,14 +29,14 @@ jobs:
     steps:
       - checkout
       - run: echo "this is the test job"
-
-# Orchestrate our job run sequence
-
       
+      # Orchestrate our job run sequence
+
+
 workflows2:
   dev_and_QA:
     jobs:
-      - dev 
+      - dev
       - QA
         requires:
           -dev
