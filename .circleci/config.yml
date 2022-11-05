@@ -19,12 +19,9 @@ jobs:
           password: $L2k8j72  # context / project UI env-var reference
     steps:
       - checkout
-      - run: 
-          name: install dependencies
-          command: mvn install
-      - run: 
-          name: Run tests
-          command: mvn run test
+      - run: openjdk:11.0.13
+      - echo: "Hello"
+          
 
 # Orchestrate our job run sequence
 workflows:
