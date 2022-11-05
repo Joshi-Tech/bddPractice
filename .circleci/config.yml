@@ -20,7 +20,7 @@ jobs:
     steps:
       - checkout
       - run: openjdk:11.0.13
-      - echo: "Hello"
+      - echo: Hello
           
 
 # Orchestrate our job run sequence
