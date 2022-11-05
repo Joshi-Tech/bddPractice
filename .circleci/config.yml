@@ -19,7 +19,9 @@ jobs:
           password: $L2k8j72  # context / project UI env-var reference
     steps:
       - checkout
-      - run: echo "this is the test job"
+      - run: 
+          name: install dependencies
+          command: mvn install
 
 # Orchestrate our job run sequence
 workflows:
