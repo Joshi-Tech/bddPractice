@@ -37,6 +37,6 @@ workflows2:
   dev_and_QA:
     jobs:
       - dev
-      - QA
+      - test:
         requires:
           -dev
