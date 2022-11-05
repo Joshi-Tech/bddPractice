@@ -31,13 +31,9 @@ jobs:
       - run: echo "this is the test job"
 
 # Orchestrate our job run sequence
-workflows:
-  dev_and_test:
-    jobs:
-      - dev
-      - test
+
       
-      workflows2:
+workflows2:
   dev_and_QA:
     jobs:
       - dev
