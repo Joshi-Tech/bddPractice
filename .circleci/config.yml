@@ -2,16 +2,15 @@ version: 2.1
 
 # Define the jobs we want to run for this project
 jobs:
-  dev:
+  build:
     docker:
       - image: cimg/openjdk:11.0.13
         auth:
           username: lkjoshi
-          password: $L2k8j72 # context / project UI env-var reference
+          password: $L2k8j72  # context / project UI env-var reference
     steps:
       - checkout
       - run: echo "this is the build job"
-  
   test:
     docker:
       - image: cimg/openjdk:11.0.13
@@ -21,35 +20,12 @@ jobs:
     steps:
       - checkout
       - run: echo "this is the test job"
-  
-  QA:
-    docker1:
-      - image: cimg/openjdk:11.0.13
-        auth:
-          username: lkjoshi
-          password: $L2k8j72 # context / project UI env-var reference
-    steps1:
-      - checkout
-      - run: echo "this is the build job"
-      
-      test:
-    docker:
-      - image: cimg/openjdk:11.0.13
-        auth:
-          username: lkjoshi
-          password: $L2k8j72  # context / project UI env-var reference
-    steps:
-      - checkout
-      - run: echo "this is the test job"
-      
-      
-      # Orchestrate our job run sequence
 
-
+# Orchestrate our job run sequence
 workflows:
-  dev_and_QA:
+  build_and_test:
     jobs:
-      - dev
+      - build
       - test:
-        requires:
-          -dev
+          requires:
+            - build
