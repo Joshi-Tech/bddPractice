@@ -22,6 +22,9 @@ jobs:
       - run: 
           name: install dependencies
           command: mvn install
+      - run: 
+          name: Run tests
+          command: mvn run test
 
 # Orchestrate our job run sequence
 workflows:
