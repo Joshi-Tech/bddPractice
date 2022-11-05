@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89ea9e92-271c-452f-91e2-79ca8c4dcd9c" name="Changes" comment="some changes in the config">
+    <list default="true" id="89ea9e92-271c-452f-91e2-79ca8c4dcd9c" name="Changes" comment="config updated">
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +139,63 @@
       <option name="project" value="LOCAL" />
       <updated>1667657901018</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=".circle deleted">
+      <created>1667658587239</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667658587239</updated>
+    </task>
+    <task id="LOCAL-00006" summary="config updated">
+      <created>1667681388073</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667681388073</updated>
+    </task>
+    <task id="LOCAL-00007" summary="config updated">
+      <created>1667681630404</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667681630404</updated>
+    </task>
+    <task id="LOCAL-00008" summary="config updated">
+      <created>1667691132355</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667691132355</updated>
+    </task>
+    <task id="LOCAL-00009" summary="config updated">
+      <created>1667691287110</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667691287110</updated>
+    </task>
+    <task id="LOCAL-00010" summary="config updated">
+      <created>1667691332162</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667691332162</updated>
+    </task>
+    <task id="LOCAL-00011" summary="config updated">
+      <created>1667691518581</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667691518581</updated>
+    </task>
+    <task id="LOCAL-00012" summary="config updated">
+      <created>1667691577847</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667691577847</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +213,8 @@
     <MESSAGE value="bdd first commit" />
     <MESSAGE value="some changes in the config file" />
     <MESSAGE value="some changes in the config" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes in the config" />
+    <MESSAGE value=".circle deleted" />
+    <MESSAGE value="config updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="config updated" />
   </component>
 </project>
