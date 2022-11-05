@@ -6,7 +6,7 @@ import io.cucumber.java.en.When;
 
 public class TodayTixLoginSteps {
     @Given("Chrome browser launched")
-    public void chrome_browser_launched() {
+    public void chrome_browser_launched(){
     }
 
     @When("url {string}")
