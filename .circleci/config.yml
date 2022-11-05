@@ -65,3 +65,5 @@ workflows:
     jobs:
       - dev
       - test
+      - qa
+      - test
