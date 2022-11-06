@@ -10,7 +10,7 @@ jobs:
           password: $L2k8j72  # context / project UI env-var reference
     steps:
       - checkout
-      - run: my-build-commands
+     # - run: my-build-commands
   test:
     docker:
       - image: cimg/openjdk:11.0.13
