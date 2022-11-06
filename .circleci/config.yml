@@ -10,7 +10,7 @@ jobs:
           password: $L2k8j72  # context / project UI env-var reference
     steps:
       - checkout
-      - run: my-build-commands
+      - run: login.feature
   test:
     docker:
       - image: cimg/openjdk:11.0.13
@@ -19,7 +19,7 @@ jobs:
           password: $L2k8j72  # context / project UI env-var reference
     steps:
       - checkout
-      - run: my-test-commands
+      - run: login.feature
   deploy:
     docker:
       - image: cimg/openjdk:11.0.13
@@ -28,7 +28,7 @@ jobs:
           password: $L2k8j72  # context / project UI env-var reference
     steps:
       - checkout
-      - run: my-deploy-commands
+      - run: login.feature
 
 # Orchestrate our job run sequence
 workflows:
