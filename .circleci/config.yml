@@ -15,19 +15,19 @@ jobs:
     docker:
       - image: cimg/openjdk:11.0.13
         auth:
+#          username: lkjoshi
+#          password: $L2k8j72  # context / project UI env-var reference
+    steps:
+      - checkout
+     # - run: my-test-commands
+  deploy:
+    docker:
+      - image: cimg/openjdk:11.0.13
+        auth:
           username: lkjoshi
           password: $L2k8j72  # context / project UI env-var reference
     steps:
       - checkout
-     # - run: my-test-commands
-#  deploy:
-#    docker:
-#      - image: cimg/openjdk:11.0.13
-#        auth:
-#          username: lkjoshi
-#          password: $L2k8j72  # context / project UI env-var reference
-#    steps:
-#      - checkout
      # - run: my-deploy-commands
 
 # Orchestrate our job run sequence
