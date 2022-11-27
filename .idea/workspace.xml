@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89ea9e92-271c-452f-91e2-79ca8c4dcd9c" name="Changes" comment="config updated">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/TodayTixHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testP/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +43,11 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -49,32 +56,7 @@
       <recent name="C:\Users\lkjos\OneDrive\Desktop\Circle Ci learning\bddLearning\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Logging successfully with valid credentials">
-    <configuration name="Trial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trial" />
-      <module name="bddLearning" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/feature/login.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="bddLearning" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: login" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.BaseTest.setUpLaunch">
     <configuration name="Scenario: Logging successfully with valid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/feature/login.feature" />
@@ -94,11 +76,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BaseTest.beforeMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bddLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="testP.BaseTest" />
+      <option name="METHOD_NAME" value="beforeMethod" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseTest.launchPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bddLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="testP.BaseTest" />
+      <option name="METHOD_NAME" value="launchPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseTest.login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bddLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testP" />
+      <option name="MAIN_CLASS_NAME" value="testP.BaseTest" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseTest.setUpLaunch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bddLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testP" />
+      <option name="MAIN_CLASS_NAME" value="testP.BaseTest" />
+      <option name="METHOD_NAME" value="setUpLaunch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BaseTest.setUpLaunch" />
+        <item itemvalue="TestNG.BaseTest.login" />
+        <item itemvalue="TestNG.BaseTest.launchPage" />
+        <item itemvalue="TestNG.BaseTest.beforeMethod" />
         <item itemvalue="Cucumber Java.Scenario: Logging successfully with valid credentials" />
-        <item itemvalue="Cucumber Java.Feature: login" />
-        <item itemvalue="Application.Trial" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +251,56 @@
       <option name="project" value="LOCAL" />
       <updated>1667691577847</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="config updated">
+      <created>1667764770161</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667764770161</updated>
+    </task>
+    <task id="LOCAL-00014" summary="config updated">
+      <created>1667764960980</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667764960980</updated>
+    </task>
+    <task id="LOCAL-00015" summary="config updated">
+      <created>1667765369600</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667765369600</updated>
+    </task>
+    <task id="LOCAL-00016" summary="config updated">
+      <created>1667765486946</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667765486946</updated>
+    </task>
+    <task id="LOCAL-00017" summary="config updated">
+      <created>1667767606861</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667767606861</updated>
+    </task>
+    <task id="LOCAL-00018" summary="config updated">
+      <created>1667767672037</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667767672037</updated>
+    </task>
+    <task id="LOCAL-00019" summary="config updated">
+      <created>1667768804871</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1667768804871</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,5 +321,21 @@
     <MESSAGE value=".circle deleted" />
     <MESSAGE value="config updated" />
     <option name="LAST_COMMIT_MESSAGE" value="config updated" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/testP/BaseTest.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pageObject/TodayTixHomePage.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
